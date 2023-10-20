@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "allowJs": false,
+    "outDir": "dist/",
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "useDefineForClassFields": false,
+    "strictNullChecks": false,
+    "noImplicitThis": false,
+    "useUnknownInCatchVariables": false,
+    "strictPropertyInitialization": false
+  },
+  "include": ["src"]
+}
