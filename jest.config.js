@@ -4,7 +4,6 @@ const CLEAR_CONSOLE = process.env.CLEAR_CONSOLE === '1';
 const notice = () => console.log('Using Jest config from `jest.config.js`');
 
 if (CLEAR_CONSOLE) {
-  require('clear')();
   console.log();
   notice();
   console.log('Clearing console due to CLEAR_CONSOLE=1');

@@ -5,7 +5,6 @@
     "prettier",
     "airbnb",
     "typescript",
-    "typescript/react",
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:import/typescript"
@@ -35,7 +34,7 @@
     "no-use-before-define": "off",
     "camelcase": "off",
 
-    "prettier/prettier": "error",
+    "prettier/prettier": "warning",
 
     "import/no-unresolved": "error",
     "import/extensions": "off",

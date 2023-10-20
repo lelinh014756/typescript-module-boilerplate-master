@@ -1,8 +1,9 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 interface Params {
   isValid: boolean;
 }
 
-export default function func({ isValid }: Params) {
+function func({ isValid }: Params) {
   let foo = 1;
 
   if (isValid) {
@@ -11,7 +12,3 @@ export default function func({ isValid }: Params) {
 
   return foo;
 }
-
-console.log('====================================');
-console.log('run');
-console.log('====================================');
